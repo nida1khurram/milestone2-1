@@ -335,13 +335,13 @@ text-decoration: none;
     margin-top: 20px;
     margin-bottom: 5px;
   }
- */
+
   .contact-p{
    margin-bottom: 50px;
    
   }
  }
- /* product */
+
  .product-h2{
   font-size: 40px;
   text-align: center;
@@ -410,8 +410,6 @@ margin: 50px auto;
  
 }
 
-/* product end  */
-/* about */
 .about-main{
   margin-bottom: 80px;
   max-width: 100%;
@@ -444,7 +442,7 @@ margin: 50px auto;
   line-height: 20px;
 }
 
-/*  */
+
 .animation-about {
   margin-top: 120px;
   margin-left: 80px;
@@ -482,7 +480,7 @@ background: darksalmon;
 transform: rotate(180deg);
 }
 }
-/*  */
+
 @media (max-width: 768px){
   .about-main{
     margin-bottom: 50px;
@@ -496,7 +494,7 @@ transform: rotate(180deg);
     max-height: 300px;
   }
 }
-/* animation contact */
+
 .animation-contact {
   margin-top: -90px;
   margin-left: 400px;
