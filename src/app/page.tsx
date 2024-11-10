@@ -1,8 +1,11 @@
 
 import Hero from "@/components/hero";
 import ContactPage from "./contact-us/page";
-import Product from "@/components/product";
+
 import About from "./about/page";
+import ProductsPage from "./products/page";
+
+
 
 
 export default function Home() {
@@ -10,8 +13,9 @@ export default function Home() {
   <main>
    <Hero />
    <About />
-   < Product />
+   < ProductsPage />
    <ContactPage />
+
   </main>
   );
 }

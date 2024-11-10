@@ -12,7 +12,7 @@ export default function Hero() {
   <h1 className="hero-h1">Best Jewellery Collection </h1>
                 <p className="hero-p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem.</p>
                
-                <Link href={'/'}><button  className="shop-now"> Shop Now</button> </Link>
+                <Link href={'/'}><button  className="shop-now"> <span>Shop Now</span></button> </Link>
                
   </div>
 </div>

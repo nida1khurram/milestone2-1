@@ -1,16 +1,14 @@
-
+import React from 'react'
+import Image from 'next/image';
 import { IoCallSharp } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 import Link from 'next/link';
-import React from 'react'
-
-export default function ContactPage() {
+export default function Con() {
   return (
- <>  
-        <div className='sub-con'>
-        <h2 className="contact-h2">CONTACT US</h2>
+    <div className='con-main'>
+        <div className='sub-about'>
         <p className='contact-p'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sed nostrum 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sed nostrum necessitatibus eos commodi debitis impedit, 
         <br /><br />
         <Link href={'/'} className="contact-a2"> 
         <IoCallSharp/> (304)368-6719</Link> <br /><br />
@@ -20,8 +18,13 @@ export default function ContactPage() {
         <IoIosMail/> info@website.com</Link>
        
         </p>
+   
     <div className='animation-about'></div>
         </div>
-        </>  
+        {/* <div>
+        <img src={"/picture/map1.png"} alt="" id="contact-pic"width={400} height={300} />
+        </div> */}
+
+    </div>
   )
 }
